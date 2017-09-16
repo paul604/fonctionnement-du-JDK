@@ -2,6 +2,7 @@
 *.jar
 temp/*
 lib/*
+java-design-patterns/*
 
 !lib/README.MD
 !temp/README.MD

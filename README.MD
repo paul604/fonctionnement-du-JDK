@@ -4,7 +4,7 @@ Lp MiAR Nantes
 
 ## Prérequis
 A la racine du projet:
-git colne https://github.com/iluwatar/java-design-patterns.git
+git clone https://github.com/iluwatar/java-design-patterns.git
 
 https://www.slf4j.org/download.html version 1.7.25 dans le dossier lib/
 
@@ -27,7 +27,7 @@ Architecture de départ:
 |-README.MD
 ```
 
-## bridge.sh 
+## bridge.sh
 contient toute les commande des question fonctionnant avec bridge.
 
 ## loop.sh
