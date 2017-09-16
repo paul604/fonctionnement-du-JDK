@@ -1,4 +1,6 @@
-# Paul Orhon
+# Fonctionnement du JDK
+Cours outil dev
+Lp MiAR Nantes
 
 ## Prérequis
 A la racine du projet:
