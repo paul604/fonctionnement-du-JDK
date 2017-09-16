@@ -1,0 +1,2 @@
+Main-Class: com.iluwatar.bridge.App
+Class-Path: ../lib/slf4j-1.7.25/slf4j-simple-1.7.25.jar ../lib/slf4j-1.7.25/slf4j-api-1.7.25.jar
