@@ -6,6 +6,8 @@ Lp MiAR Nantes
 A la racine du projet:
 git colne https://github.com/iluwatar/java-design-patterns.git
 
+https://www.slf4j.org/download.html version 1.7.25 dans le dossier lib/
+
 Architecture de départ:
 ```
 |-jar  
@@ -17,7 +19,6 @@ Architecture de départ:
 |  
 |-lib  
 | |-slf4j-1.7.25  
-| |-...  
 |  
 |-temp  
 |  
