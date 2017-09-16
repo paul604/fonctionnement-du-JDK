@@ -1,3 +1,7 @@
-.class
+*.class
+*.jar
+temp/*
 lib/*
+
 !lib/README.MD
+!temp/README.MD
