@@ -16,9 +16,9 @@ set tmp=""
 
 ::projet ban
 REM set non=( "aggregator_microservices" "api_gateway" "caching" "converter" "cqrs_app" "dao" "datamapper" "dependency_injection" "event_sourcing_app" "fluentinterface_app" "flux_app" "hexagonal" "layers" "module" "publish_subscribe" "reactor_app" "repository" "servicelayer_app" "specification_app" "message_channel")
-
-echo "finding"
-for /r %%f in ('dir java-design-patterns\*\src\main\java\com\iluwatar\*\App.java /A:-D /A:-A /S') do (
+::`dir /b ^| findstr /i "^[0-9][0-9]*\.PDF$"`
+echo finding
+for /f %~dp0 %%f in ('findstr /rc "java-design-patterns\[a-z]*\src\main\java\com\iluwatar\[a-z]*\App.java"') do (
   echo %%f
   REM url=${file%"App.java"*}
   REM
